@@ -17,4 +17,5 @@ PyInstaller.__main__.run([
     "--name=PathologicAutoWalk",
     "--icon=icon.ico",
     "--add-data=icon.ico;.",
+    "--noupx",
 ])
